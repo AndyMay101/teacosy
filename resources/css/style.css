@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: helvetica;
+  font-size: 22pt;
+  color: seashell;
+}
+
+/* code below is for the header and its items */ {}
+
+header {
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  color: black;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+
+}
+.headernav {
+  display: block;
+  align-items: center;
+  padding-right: 40px;
+
+
+}
+.headerimg {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.headernavitem {
+  color: white;
+  padding: 20px 10px;
+  text-align: right;
+  display: inline-block;
+}
+
+/* code below is for the main cover image and items */ {}
+
+.container {
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coverimage {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maintext {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  display: block;
+  background-color: black;
+}
+h2.main {
+  padding: 10px 0 0 0;
+}
+h4.main {
+  font-size: 24px;
+  padding: 10px 0 10px 0
+}
+
+/* code below is for the 5 divs with image and headers */ {}
+
+.store {
+  width: 1000px;
+  height: 700px;
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+.fiveimages {
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.berryblitz .spicedrumtea .donuts .myrtleleave .bedford {
+  display: block;
+  align-content: center;
+
+}
+
+.five {
+  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.fivetext {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 18px;
+}
+
+/* code below is for the contact info div */ {}
+
+.addresscontainer {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  justify-content: center;
+}
+.addressheader {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  height: auto;
+  margin-bottom: 15px;
+}
+.addressthreeblocks {
+  display: flex;
+  width: 1200px;
+  height: 300px;
+  margin-bottom: 70px;
+  justify-content: center;
+  flex-direction: row;
+}
+.aboveaddresstitle {
+  margin: 0
+
+}
+.address {
+    display: block;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    opacity: 1;
+}
+.addresstxt
+  {
+    font-size: 23px;
+  }
+
+footer {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* code below is for the footer */ {}
